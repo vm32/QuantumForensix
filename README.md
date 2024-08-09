@@ -52,7 +52,7 @@ Please ensure you have the necessary permissions and legal authority before anal
 ### Core QuantumForensix
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/quantumforensix.git
+git clone https://github.com/vm32/quantumforensix.git
 cd quantumforensix
 
 # Create a virtual environment (optional but recommended)
