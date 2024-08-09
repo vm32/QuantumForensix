@@ -20,6 +20,32 @@ QuantumForensix is an advanced, cross-platform digital forensics toolkit designe
 - **App Inventory**: Generate a list of installed applications with details.
 - **Device Information**: Retrieve basic iOS device information.
 - **iOS-specific Reporting**: Create forensic reports for iOS device analysis.
+## Operating System Compatibility
+
+QuantumForensix is designed to work across multiple platforms. The following table outlines the compatibility of different components with various operating systems:
+
+| Operating System | Core QuantumForensix (Python) | iOSynthesis Module (C) | Target Analysis |
+|------------------|-------------------------------|------------------------|-----------------|
+| Windows          | ✅                            | ⚠️                     | ✅               |
+| macOS            | ✅                            | ✅                     | ✅               |
+| Linux            | ✅                            | ✅                     | ✅               |
+| iOS              | ❌                            | ❌                     | ✅               |
+| Android          | ❌                            | ❌                     | 🚧               |
+
+Legend:
+- ✅ Fully supported
+- ⚠️ Partial support (may require additional setup)
+- ❌ Not supported yet
+- 🚧 Planned for future release
+
+Notes:
+1. The core QuantumForensix tool, written in Python, is cross-platform and runs on Windows, macOS, and Linux.
+2. The iOSynthesis module, written in C, is primarily designed for macOS and Linux. Windows support is partial and may require additional setup (e.g., using WSL - Windows Subsystem for Linux).
+3. Target Analysis refers to the ability to analyze data from these operating systems, not run on them.
+4. iOS devices can be analyzed using the iOSynthesis module when connected to a supported host operating system.
+5. Android analysis is planned for a future release.
+
+Please ensure you have the necessary permissions and legal authority before analyzing any device or data.
 
 ## Installation
 
