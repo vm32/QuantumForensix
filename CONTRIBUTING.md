@@ -4,7 +4,7 @@ First off, thank you for considering contributing to QuantumForensix! It's peopl
 
 ## Code of Conduct
 
-By participating in this project, you are expected to uphold our Code of Conduct. Please report unacceptable behavior to [INSERT EMAIL HERE].
+By participating in this project, you are expected to uphold our Code of Conduct. Please report unacceptable behaviour to [abdullah@linux.com].
 
 ## How Can I Contribute?
 
